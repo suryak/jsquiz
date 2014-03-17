@@ -1,0 +1,129 @@
+body {
+  background:#f0f0f0 url(bodybg.jpg) repeat-x;
+  color:#303030;
+  font:76% Verdana,Tahoma,Arial,sans-serif;
+  margin:10px;
+  padding:0;
+  text-align:left;
+}
+#video {
+  height: 500px;
+  float:left; 
+}
+.note {
+    opacity: 0.70;
+    background-color: red;
+     z-index: 2147483647;
+}
+
+.overlay {
+     z-index: 2147483647;
+}
+
+.box {
+    position:absolute;
+    opacity:0.5;
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    top:100px;
+    left:200px;
+    z-index: 2147483647;
+}
+
+.help {
+    opacity: 0.90;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background-color: gray;
+    width: 300px;
+    height: 100px;
+    font-size:80%;
+    z-index: 2147483647;
+    background-image: url(images/osa_awareness.png); 
+    background-repeat: no-repeat; 
+    background-position: left top;
+    padding-left: 128px; 
+    padding-top: 20px;
+}
+
+.anim {
+    opacity: 0.90;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 300px;
+    height:200px;
+    background-image: url(animation/turkeygif.gif); 
+    background-repeat: no-repeat; 
+    background-position: left top;
+    padding-left: 64px; 
+}
+
+#container {
+  color:#303030;
+  margin:0;
+  width:100%;
+  padding:0;
+  text-align:left;
+}
+#videobox {
+  border:1px solid #000;
+  float:left; 
+}
+
+#sectionbox {
+float:left; 
+background: #f0e7d7;
+margin: 0 auto;
+padding: 0em 0;
+font-family: georgia, serif;
+font-size: 12px;
+text-align: center;
+vertical-align: top;
+}
+
+p#copyright {
+  background: #ffff00;
+  padding: 0;
+  margin: 0;
+}
+
+ul#sections
+{
+text-align: left;
+list-style: none;
+padding: 0;
+margin: 0 auto;
+width: 100%;
+}
+
+ul#sections li
+{
+display: block;
+margin: 0;
+padding: 0;
+}
+
+ul#sections li label
+{
+display: block;
+width: 100%;
+/*padding: 0.5em 0 0.5em 2em;*/
+padding: 0.5em 0 0.5em 1em;
+border-width: 1px;
+border-color: #ffe #aaab9c #ccc #fff;
+border-style: solid;
+color: #777;
+text-decoration: none;
+background: #f7f2ea;
+cursor:pointer;
+}
+
+ul#sections li label:hover, ul#sections li#active label:hover
+{
+color: #800000;
+background: transparent;
+border-color: #aaab9c #fff #fff #ccc;
+}

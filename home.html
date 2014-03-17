@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Computer Security</title>
+        <link type="text/css" rel="stylesheet" href="style.css" />
+        <script src="popcorn-complete.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var popcorn = Popcorn("#video", {
+                    pauseOnLinkClicked: true
+                });
+            }, false);
+        </script>
+        <script>
+            $(function () {
+                $(document).tooltip();
+            });
+        </script>
+    </head>
+    <body>
+        <div id="container">
+        <table border="0">
+            <tr>
+                <td>
+                    <video id="video" controls="controls" data-timeline-sources="/data.json" poster="titlepage.jpg" class="video" height="500" width="742">
+                        <source src="643_Week01_Lecture_Part1.mp4" type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+                </td>
+                <td style="vertical-align:top">
+                    <div id="sectionbox">
+                        <ul id="sections"></ul>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <p id="copyright">Copyright © 2013 Wenliang Du. All rights reserved.</p>
+               </td>
+            </tr>
+            <tr>
+                <td colspan="2"><div id="footnote"></div></td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Popcorn</title>
+    <script type="text/javascript" src="d3.v3.min.js"></script>
+    <script type="text/javascript" src="quiz.js"></script>
+    <script src="popcorn-complete.js"></script>
+    <script>
+    document.addEventListener( "DOMContentLoaded", function() {
+        var popcorn = Popcorn("#video");
+        popcorn.play();
+        var q = new quiz(popcorn, "quiz_data.json");
+        popcorn.code({
+                   start: 2,
+                   onStart: function (options) {
+                       q.ShowQuestion(1);
+                   }
+             });
+        popcorn.code({
+                   start: 3,
+                   onStart: function (options) {
+                       q.ShowQuestion(2);
+                   }
+             });
+        popcorn.code({
+                   start: 4,
+                   onStart: function (options) {
+                       q.ShowQuestion(3);
+                   }
+             });
+        popcorn.code({
+                   start: 5,
+                   onStart: function (options) {
+                       q.ShowQuestion(4);
+                   }
+             });
+        popcorn.code({
+                   start: 6,
+                   onStart: function (options) {
+                       q.ShowQuestion(5);
+                   }
+             });
+        popcorn.code({
+                   start: 7,
+                   onStart: function (options) {
+                       q.ShowQuestion(6);
+                   }
+             });
+        popcorn.code({
+                   start: 8,
+                   onStart: function (options) {
+                       q.ShowQuestion(7);
+                   }
+             });
+        popcorn.code({
+                   start: 9,
+                   onStart: function (options) {
+                       q.ShowQuestion(8);
+                   }
+             });
+        popcorn.code({
+                   start: 10,
+                   onStart: function (options) {
+                       q.ShowResult();
+                   }
+             });
+      }, false );
+    </script>
+</head>
+<body>
+<table>
+    <tr>
+        <td>
+                    <video id="video" controls="controls" data-timeline-sources="/data.json"  class="video" height="500" width="742">
+                <source src="example.ogg" />
+            </video>
+        </td>
+    </tr>
+    <tr><td><div id="footnote"></div></td></tr>
+</table>
+</body>
+</html>

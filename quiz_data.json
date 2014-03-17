@@ -1,0 +1,107 @@
+{
+    "data" : {
+        "quiz" : {
+                "id" : "Quiz 1"
+                    },
+        "questions" : [
+        {
+            "id" : 1,
+            "type" : 1 ,  
+            "text" : " What is hacking and how is it different from cracking? Is hacking different from cracking?",
+            "choices" :["true", "false"] ,
+            "answers" : ["true"],
+            "image" : 
+                    {
+                      "url": "jobs.jpg",
+                      "x" : 250,
+                      "y" : 100,
+                      "height": 100,
+                      "width" : 300
+                    }
+            
+        },
+            {
+            "id" : 2,
+            "type" : 1 ,  
+            "text" : "What is the mascot of syracuse?",
+            "choices" :["Otto", "Zebra", "Wolfie", "Tim The Beaver", "fdasf", "dasf"] ,
+            "answers" : ["Otto"],
+            "image" : 
+                    {
+                      "url": "jobs.jpg",
+                      "x" : 250,
+                      "y" : 100,
+                      "height": 100,
+                      "width" : 300
+                    }
+        },
+            {
+            "id" : 3,
+            "type" : 2 ,  
+            "text" : "What is the mascot of syracuse?",
+            "choices" :["Otto", "Zebra", "Wolfie", "Tim The Beaver"] ,
+            "answers" : ["Otto"]
+        },
+            {
+            "id" : 4,
+            "type" : 3 ,  
+            "text" : "What is the mascot of syracuse?",
+            "answers" : ["Otto"]
+            },
+            {
+            "id" : 5,
+            "type": 4,
+            "text" : "Click on the pie chart with the maximum value",
+            "pie_data": [ {"label" : "one" , "value": 10},
+                          {"label" : "two", "value": 50},
+                          {"label" : "four", "value": 20},
+                          {"label" : "three", "value": 20}
+                ],
+            "answers" : ["two" , "50"]
+            },
+            {
+            "id" : 6,
+            "type": 5,
+            "text" : "Match: Drag and Drop",
+            "drag" : ["apple.jpg","cucumber.jpeg", "eggplant.jpeg","potato.jpeg","apple.jpg"],
+            "drop" : ["fruit","vegetable","others","abc"],
+            "answers" : [ [ "fruit", "apple.jpg"] , ["vegetable" , "cucumber.jpeg"] , ["others" , "potato.jpeg"] ]
+            },
+            {
+            "id" : 7,
+            "type": 6,
+            "text" : "Identify Who is Mr.Mike",
+            "image" : 
+                    {
+                      "url": "people.jpg",
+                      "x" : 20,
+                      "y" : 20,
+                      "height": 400,
+                      "width" : 400
+                    },
+            "options" : [{"x":100,"y":140},{"x":180,"y":150},{"x":280,"y":160}],
+            "rectangle" : [50,50],
+            "answers": [1,0,0]
+            },
+            {
+            "id" : 8,
+            "type": 7,
+            "text" : "Drag and Drop the numbers into its place",
+            "drag_images" : [
+                  { "x": 90, "y": 150, "width": 50, "height": 200, "href" : "5-image.jpg", "id" : "answer1"  },
+                  { "x": 250, "y": 150, "width": 50, "height": 200, "href" : "8-image.jpg", "id" : "answer2" },
+                  { "x": 450, "y": 150, "width": 50, "height": 200, "href" : "2-image.jpg", "id" : "answer3" },
+                  { "x": 110, "y": 20, "width": 50, "height": 200,  "href" : "a1.jpg", "id" : "a1" },
+                  { "x": 223, "y": 20, "width": 50, "height": 200,  "href" : "a2.jpg", "id" : "a2" },
+                  { "x": 330, "y": 20, "width": 50, "height": 200,  "href" : "a3.jpg", "id" : "a3" }
+                  ], 
+            "question_images": [
+                  { "x": 50, "y": 20, "width": 50, "height": 200,  "href" : "q1.jpg", "id" : "Question1" },
+                  { "x": 385, "y": 20, "width": 50, "height": 200,  "href" : "q4.jpg", "id" : "Question4" },
+                  { "x": 275, "y": 20, "width": 50, "height": 200,  "href" : "q3.jpg", "id" : "Question3" },
+                  { "x": 170, "y": 20, "width": 50, "height": 200,  "href" : "q2.jpg", "id" : "Question2" }],
+            "answers": [["answer1", "a2"] ,["answer2","a3"], ["answer3", "a1"]]
+            }
+        ] 
+}
+}

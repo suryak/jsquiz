@@ -1,0 +1,67 @@
+﻿{
+
+  "data": [
+    {
+	  "section":{
+	     "start":55,
+		 "end": 230,
+		 "text":"Abstract",
+		 "tooltip":"Prerequisites for the course",
+		 "target":"sections"
+	  },
+	  "subtitle":{
+	     "start":20,
+		 "end"  :55,
+		 "escape":true,
+		 "text" :"<marquee class='note'>Please submit your homework 7 by December 1, 2014</note>"
+	  },
+	  "box":{
+	    "start": 60,
+		"end" : 80,
+		"css" : "help",
+		"text": "<b>Unix Security</b><br/>A secure environment is achieved not only by the design concepts of these operating systems, but also through vigilant user and administrative practices.<br/>",
+		"link": "http://en.wikipedia.org/wiki/Unix_security"
+	  }
+	},
+	{
+	  "section":{
+	     "start": 240,
+		 "end": 400,
+		 "text": "Introduction",
+		 "tooltip": "Introduction to risks",
+		 "target" :"sections"
+	  },
+	  "subtitle":{
+	     "start":1,
+		 "end"  :55,
+		 "text" :"This is subtitle"
+	  }
+	},
+	{
+	  "section":{
+	     "start": 410,
+		 "end": 720,
+		 "text": "Sense of Security",
+		 "tooltip": "Understanding security risks",
+		 "target" :"sections"
+	  }	   
+	},
+	{
+	  "section":{
+	     "start": 750,
+		 "end": 890,
+		 "text": "Real life Example",
+		 "tooltip": "Real life example to understand more about sense of security"
+	  }	   
+	},
+	{
+	  "section":{
+	    "start":891,
+		"end"  :895,
+		"text" :"Quiz 1",
+		"tooltip":"quize",
+		"target": "sections"
+	  }
+	}
+  ]
+}
